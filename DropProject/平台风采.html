@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_1579149_5skvpneg9ui.css"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+	
+<style>
+			.first{
+				padding-left: 20px;
+				height: 30px;
+				font-size:25px;
+				color: darkorange;
+			}
+			.div{
+				top: 20px;
+				height:0px;
+				border-bottom:2px dashed;
+				color: #555555;
+				margin-bottom: 13px;
+				}
+			.second{
+				font-weight: bold;
+				color:#555555;
+			}
+			.third{
+				color: #555555;
+			}
+			.fouth{
+				font-weight: bold;
+				color: #FF8C00;
+				font-size: 16px;
+			}
+			.mui-bar .mui-btn .mui-icon {
+				top: 1px;
+				margin: 0;
+				padding: 0;
+				color: white;
+				}
+		</style>
+	
+</head>
+
+<body>
+	<header class="mui-bar mui-bar-nav mui-badge-blue ">
+<!-- 		<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left bla"></a> -->
+		<button type="button" class="mui-left  mui-btn-white mui-btn  mui-btn-link mui-btn-nav mui-pull-left ">
+			<span class="mui-icon mui-icon-left-nav"></span>
+		</button>
+		<h1 class="mui-title ">平台风采</h1>
+	</header>
+	
+	<div class="mui-text-center" style="padding-bottom: 20px;padding-top: 50px;">
+		<img src="images/平台风采.png" height="170">
+	</div>
+	
+	<div class="mui-left">
+			<p class="first" style="size: a5;">公司简介</p>
+			<div class="div">
+			</div>
+		</div>
+		<div>
+			
+			<td align="center" style="padding-left:20px; padding-bottom:20px; padding-right:20px; padding-top:20px;">
+			<p class="second mui-text-center">鸿鑫互联科技（北京）股份有限公司</p>
+			<p class="third" style="padding-left:20px; padding-bottom:20px; padding-right:20px; padding-top:20px;">是一个建筑工程领域万众创业者的开放性互联网电子商务服务平台——滴滴工程平台。我们的口号是：干工程就上滴滴。
+			滴滴工程平台是公司核心管理平台，平台集企业资质品牌、CRM、线上OA办公、线上ERP、线上采购、资源整合于一体。实现
+			创业者项目管理：<span class="fouth">高效、降低成本、安全。</span>为创业者提供建筑行业生态链统一站式服务，为自身创造千万价值的同
+			时，成为平台的股东，享受平台上市资本带来数倍回报</p>
+			<p class="third" style="padding-left:20px; padding-bottom:20px; padding-right:20px; padding-top:20px;">我们秉承"<span class=fouth>专注、创新、服务、分享</span>"的企业精神，打破行业传统管理理念，为行业创造一个良好的服务环境、打造
+			国内建筑领域各专业的孵化平台、管理平台、数据平台（目前的专业有：门窗幕墙、装饰、钢结构等）；以全新的管理模式、完善的技术，
+			周到的服务呈现，我们始终坚持用户至上，全心服务，创业者成功平台才成功的企业核心价值观。</p>
+			<p class="third" style="padding-left:20px; padding-bottom:50px; padding-right:20px; padding-top:20px;">欢迎各位创业者到平台，如您对平台感兴趣或有疑问，请您联系我们。</p>
+		</div>
+	
+	
+	<nav class="mui-bar mui-bar-tab">
+		<a class="mui-tab-item " href="index.html">
+			<div class="iconfont icon-shouye"></div>
+			<div class="mui-tab-label" style="font-size: 10px">首页</div>
+		</a>
+		<a class="mui-tab-item">
+			<div class="iconfont icon-chaxun"></div>
+			<div class="mui-tab-label" style="font-size: 10px">创业项目</div>
+		</a>
+		<a class="mui-tab-item">
+			<div class="iconfont icon-liuchengtu"></div>
+			<div class="mui-tab-label" style="font-size: 10px">报名流程</div>
+		</a>
+		<a class="mui-tab-item mui-active">
+			<div class="iconfont icon-wendang"></div>
+			<div class="mui-tab-label" style="font-size: 10px">平台风采</div>
+		</a>
+		<a class="mui-tab-item ">
+			<div class="iconfont icon-wode"></div>
+			<div class="mui-tab-label" style="font-size: 10px">我的滴滴</div>
+		</a>
+	</nav>
+
+	<script src="js/mui.min.js"></script>
+	<script type="text/javascript">
+		mui("body").on("tap","a",function(){
+			document.location.href = this.href;
+		})
+	</script>
+</body>
+</html>

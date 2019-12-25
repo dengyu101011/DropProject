@@ -6,11 +6,116 @@
     <title></title>
     <script src="js/mui.min.js"></script>
     <link href="css/mui.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_1579149_5skvpneg9ui.css"/>
     <script type="text/javascript" charset="utf-8">
       	mui.init();
     </script>
+	<style>
+		.box{
+			display: flex;
+			width: 100%;
+			height: 120px;
+			flex-direction: row
+		}
+		.one{
+			width: 100px;
+			height: 100px;
+			flex: 1;
+		}
+		.two{
+			width: 100px;
+			height: 100px;
+		}
+		.three{
+			width: 100px;
+			height: 100px;
+		}
+	</style>
+	
 </head>
+
+
 <body>
 	
+	<header class="mui-bar mui-bar-nav mui-badge-blue">
+		<a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left" href="#offCanvasSide"></a>
+		<h1 class="mui-title">滴滴平台</h1>
+	</header>
+	<div  style="padding-top: 42px;">
+		<img src="images/首页.png" width=100% height="210">
+	</div>
+	<div class="box" style="padding-top: 5px;padding-left: 45px;">
+		<div class="one" style="padding-top:20px;">
+			<img src="图标/图标一1.png" >
+			<p class="one">创业项目</p>
+		</div>
+		<div class="one" style="padding-top:20px;" >
+			<img src="图标/图标一2.png" >
+			<p class="one">平台风采</p>
+		</div>
+		<div class="one" style="padding-top:20px;">
+			<img src="图标/图标一3.png" >
+			<p class="one">报名流程</p>
+		</div>	
+	</div>
+	<div class="box" style="padding-top: 5px;padding-left: 45px;">
+		<div class="one" style="padding-top:10px;">
+			<img src="图标/图标二1.png"  >
+			<p class="one">客户管理</p>
+		</div>
+		<div class="one" style="padding-top:10px;">
+			<img src="图标/图标二2.png" >
+			<p class="one">财务管理</p>
+		</div>
+		<div class="one" style="padding-top:10px;">
+			<img src="图标/图标二3.png" >
+			<p class="one">新闻广告</p>
+		</div>	
+	</div>
+	<div class="box" >
+		<div class="one" style="padding-top: 15px;padding-left: 45px;">
+			<img src="图标/图标三1.png"  >
+			<p class="one">工程案例</p>
+		</div>
+		<div class="one" style="padding-top: 10px;">
+			<img src="图标/图标三2.png">
+			<p class="one">修改密码</p>
+		</div>
+		<div class="one" style="padding-top:8px;">
+			<img src="图标/图标三3.png" >
+			<p class="one">注册客户</p>
+		</div>	
+	</div>
+
+
+	<nav class="mui-bar mui-bar-tab ">
+		<a class="mui-tab-item mui-active">
+			<div class="iconfont icon-shouye"></div>
+			<div class="mui-tab-label" style="font-size: 10px">首页</div>
+		</a>
+		<a class="mui-tab-item">
+			<div class="iconfont icon-chaxun"></div>
+			<div class="mui-tab-label" style="font-size: 10px">创业项目</div>
+		</a>
+		<a class="mui-tab-item">
+			<div class="iconfont icon-liuchengtu"></div>
+			<div class="mui-tab-label" style="font-size: 10px">报名流程</div>
+		</a>
+		<a class="mui-tab-item" href="平台风采.html">
+			<div class="iconfont icon-wendang"></div>
+			<div class="mui-tab-label" style="font-size: 10px">平台风采</div>
+		</a>
+		<a class="mui-tab-item" href="">
+			<div class="iconfont icon-wode"></div>
+			<div class="mui-tab-label" style="font-size: 10px">我的滴滴</div>
+		</a>
+	</nav>
+
+	<script src="js/mui.min.js"></script>
+	<script type="text/javascript">
+		mui("body").on("tap","a",function(){
+			document.location.href = this.href;
+		})
+	</script>
 </body>
 </html>
