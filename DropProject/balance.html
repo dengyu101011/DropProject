@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_1579149_5skvpneg9ui.css">
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+		<style>
+			.mui-bar {
+				background-color: #434fc0;
+			}
+			a {
+				color: white;
+			}
+
+			.mui-title {
+				color: white;
+			}
+
+			.mui-bar-tab {
+				background-color: #000000;
+			}
+			.mui-btn-outlined.mui-btn-blue, .mui-btn-outlined.mui-btn-primary {
+			    color: white;
+			    background-color: blue;
+				width: 308px;
+				margin-left: 30px;
+				
+			}
+			.button{
+				padding-top: 200px;
+				width: 100%;
+				height: 100px;
+				background-color: white;
+				padding: 20px;
+				padding-left: 5px;				
+			}
+			.money{
+				height: 200px;
+				padding: 30px;
+				padding-left: 0px;
+				color: red;
+				background-color: white;
+			}
+			.mui-bar-tab .mui-tab-item.mui-active {
+			    color: red;
+			}
+			hr{
+				border-width: 0px;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">账户余额</h1>
+		</header>
+		<div class="money">
+			<img src="images/6.png" >
+		</div>
+		<hr size="0" color="white"/>
+		<div class="button">
+			<button type="button" class="mui-btn mui-btn-primary mui-btn-outlined">退出登录</button>
+		</div>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item mui-active">
+				<div class="iconfont icon-shouye"></div>
+				<div class="mui-tab-label">首页</div>
+			</a>
+			<a class="mui-tab-item">
+				<div class="iconfont icon-chaxun"></div>
+				<div class="mui-tab-label">创业项目</div>
+			</a>
+			<a class="mui-tab-item">
+				<div class="iconfont icon-liuchengtu"></div>
+				<div class="mui-tab-label">报名流程</div>
+			</a>
+			<a class="mui-tab-item">
+				<div class="iconfont  icon-wendang"></div>
+				<div class="mui-tab-label">平台风采</div>
+			</a>
+			<a class="mui-tab-item">
+				<div class="iconfont icon-wode"></div>
+				<div class="mui-tab-label">我的滴滴</div>
+			</a>
+		</nav>
+	</body>
+</html>
