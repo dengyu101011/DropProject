@@ -1580,7 +1580,6 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
 .mui-bar-nav
 {
     top: 0;
-
     -webkit-box-shadow: 0 1px 6px #ccc;
             box-shadow: 0 1px 6px #ccc;
 }
