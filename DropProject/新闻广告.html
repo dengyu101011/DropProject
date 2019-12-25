@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>新闻广告</title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_1579149_5skvpneg9ui.css"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+	<style>
+			.mui-bar .mui-btn .mui-icon {
+				top: 1px;
+				margin: 0;
+				padding: 0;
+				color: white;
+			}
+			.wrap{
+				width: 100%;
+			}
+			.box{
+				background-color:#FFFFFF;
+				height:150px;
+				width:90%;
+				margin:20px auto;
+				border-left: 5px solid blue;
+				padding: 20px;
+				position: relative;
+			}
+			.a{
+				display: block;
+				width: 150px;
+				height: 30px;
+				text-align: center;
+			/* 	//mtab变形 */
+				line-height: 30px;
+				background-color: #CCCCCC;
+				color: white;
+				font-size: 16px;
+				position: absolute;
+				bottom: -30px;
+			 	right: 0; */
+			}
+		</style>	
+</head>
+
+<body>
+	
+	<header class="mui-bar mui-bar-nav mui-badge-blue ">
+<!-- 		<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left bla"></a> -->
+		<button type="button" onclick="" class="mui-left  mui-btn-white mui-btn  mui-btn-link mui-btn-nav mui-pull-left ">
+			<div class="mui-icon mui-icon-left-nav">
+				<a href="index.html"></a>
+			</span>
+		</button>
+		<h1 class="mui-title ">新闻广告</h1>
+	</header>
+	
+	
+	
+	
+	<div class="wrap" style="padding-top: 50px;">
+		<div class="box">
+			<h4>习近平访美前瞻：将广泛接触美国社会</h4>
+			<p>在中国国家主席习近平访美前夕，
+			中国国务委员杨洁篪近日接受采访表示，中美可以在网络安全领域开展合作，且中美可以与其他国家本着...</p>
+			<a href="新闻广告详情.html" class="a">查看详情</a>
+		</div>
+	</div>
+
+
+		
+	<nav class="mui-bar mui-bar-tab ">
+		<a class="mui-tab-item ">
+			<div class="iconfont icon-shouye"></div>
+			<div class="mui-tab-label" style="font-size: 10px">首页</div>
+		</a>
+		<a class="mui-tab-item">
+			<div class="iconfont icon-chaxun"></div>
+			<div class="mui-tab-label" style="font-size: 10px">创业项目</div>
+		</a>
+		<a class="mui-tab-item">
+			<div class="iconfont icon-liuchengtu"></div>
+			<div class="mui-tab-label" style="font-size: 10px">报名流程</div>
+		</a>
+		<a class="mui-tab-item">
+			<div class="iconfont icon-wendang"></div>
+			<div class="mui-tab-label" style="font-size: 10px">平台风采</div>
+		</a>
+		<a class="mui-tab-item mui-active">
+			<div class="iconfont icon-wode"></div>
+			<div class="mui-tab-label" style="font-size: 10px">我的滴滴</div>
+		</a>
+	</nav>
+ 
+
+	<script src="js/mui.min.js"></script>
+	<script type="text/javascript">
+		mui("body").on("tap","a",function(){
+			document.location.href = this.href;
+		})
+	</script>
+	<script>
+		mui.init({
+			swipeBack:true //启用右滑关闭功能
+		});
+	</script>
+	
+		
+	
+	
+</body>
+</html>
