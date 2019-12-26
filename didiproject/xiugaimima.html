@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>滴滴工程</title>
+	<style type="text/css">
+		
+		#header{
+			background-color: #0062CC;
+		}
+		.mui-input-group{
+			margin-top:10px;
+		}
+		.denglu{
+			margin-left: 126px;
+			margin-top: 50px;
+		}
+		
+		#nav_foot{
+			background-color: #000000;
+		}
+		#btn_denglu{
+			width: 80%;
+			margin-top: 20px;
+			margin-left: 40px;
+			font-size: 16px;
+			}
+			#btn_regist{
+				width: 100%;
+				margin-top: 20px;
+				
+				
+				}
+				#form_style{
+					margin-top: 44px;
+				}
+				label{
+					text-align: right;
+				}
+				.mui-bar-nav.mui-bar .mui-icon {
+    margin-right: -10px;
+    margin-left: -10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+}
+.mui-bar .mui-title {
+    right: 40px;
+    left: 40px;
+    display: inline-block;
+    overflow: hidden;
+    width: auto;
+    margin: 0;
+    text-overflow: ellipsis;
+    color: white;
+}
+	</style>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_1579149_5skvpneg9ui.css">
+	
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body style="background-color:lightgray">
+	<header id="header" class="mui-bar mui-bar-nav">
+		<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		<h1 class="mui-title">修改密码</h1>
+	</header>
+	
+	<form id="form_style" class="mui-input-group">
+	    <div style="height: 47px;" class="mui-input-row">
+	        <label >旧密码:</label>
+	    <input type="text" class="mui-input-clear" >
+	    </div>
+	    <div style="height: 47px;" class="mui-input-row">
+	        <label >新密码:</label>
+	       <input type="text" class="mui-input-clear">
+	    </div>
+		<div style="height: 47px;" class="mui-input-row">
+		    <label>确认新密码:</label>
+		  <input type="text" class="mui-input-clear" >
+		</div>
+	    
+	</form>
+	<button id="btn_denglu" type="button" class="mui-btn mui-btn-primary">确认修改</button>
+	
+	<nav id="nav_foot" class="mui-bar mui-bar-tab">
+		<a class="mui-tab-item mui-active" href="index.html">
+			<div class="iconfont icon-shouye"></div>
+			<div class="mui-tab-label" style="font-size: 10px">首页</div>
+		</a>
+		<a class="mui-tab-item" href="Venture project.html">
+			<div class="iconfont icon-chaxun"></div>
+			<div class="mui-tab-label" style="font-size: 10px">创业项目</div>
+		</a>
+		<a class="mui-tab-item" href="kregistration.html">
+			<div class="iconfont icon-liuchengtu"></div>
+			<div class="mui-tab-label" style="font-size: 10px">报名流程</div>
+		</a>
+		<a class="mui-tab-item" href="Zpingtaifengcia.html">
+			<div class="iconfont icon-wendang"></div>
+			<div class="mui-tab-label" style="font-size: 10px">平台风采</div>
+		</a>
+		<a class="mui-tab-item" href="information.html">
+			<div class="iconfont icon-wode"></div>
+			<div class="mui-tab-label" style="font-size: 10px">我的滴滴</div>
+		</a>
+	</nav>
+	<script src="js/mui.min.js"></script>
+	<script type="text/javascript">
+		mui("body").on("tap","a",function(){
+			document.location.href = this.href;
+		})
+	</script>
+</body>
+</html>
