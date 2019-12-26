@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>滴滴工程</title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_1579149_5skvpneg9ui.css"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+	<style>
+		.mui-bar-tab {
+			background-color: #000000;
+		}
+		.mui-bar-tab .mui-tab-item.mui-active {
+		    color: #007aff;
+		}
+		.mui-title{
+			color: white;
+		}
+		.box{
+			display: flex;
+			width: 100%;
+			height: 120px;
+			flex-direction: row
+		}
+		.one{
+			width: 100px;
+			height: 100px;
+			flex: 1;
+		}
+		.two{
+			width: 100px;
+			height: 100px;
+		}
+		.three{
+			width: 100px;
+			height: 100px;
+		}
+		.mui-badge-blue, .mui-badge-primary {
+		    color: #fff;
+		    background-color: #434fc0;
+		}
+	</style>
+	
+</head>
+
+<body>
+	
+	<header class="mui-bar mui-bar-nav mui-badge-blue">
+		<h1 class="mui-title">滴滴平台</h1>
+	</header>
+	
+	
+	<div  style="padding-top: 42px;">
+		<img src="images/index.png" width=100% height="210">
+	</div>
+	<div class="box" style="padding-top: 5px;padding-left: 45px;">
+		<div class="one" style="padding-top:20px;">
+			<a href="Venture project.html">
+				<img src="tubiao/1-1.png" >
+				<p class="one">创业项目</p>
+			</a>
+			
+		</div>
+		<div class="one" style="padding-top:20px;" >
+			<a href="Zpingtaifengcia.html">
+				<img src="tubiao/1-2.png" >
+				<p class="one">平台风采</p>
+			</a>
+			
+		</div>
+		<div class="one" style="padding-top:20px;">
+			<a href="kregistration.html">
+				<img src="tubiao/1-3.png">
+				<p class="one">报名流程</p>
+			</a>
+			
+		</div>	
+	</div>
+	<div class="box" style="padding-top: 5px;padding-left: 45px;">
+		<div class="one" style="padding-top:10px;">
+			<a href="kmyclient.html">
+				<img src="tubiao/2-1.png"  >
+				<p class="one">客户管理</p>
+			</a>
+			
+		</div>
+		<div class="one" style="padding-top:10px;">
+			<a href="balance.html">
+				<img src="tubiao/2-2.png" >
+				<p class="one">财务管理</p>
+			</a>
+			
+		</div>
+		<div class="one" style="padding-top:10px;">
+			<a href="Zxinwenguanggao.html">
+				<img src="tubiao/2-3.png">
+				<p class="one">新闻广告</p>
+			</a>
+		
+		</div>	
+	</div>
+	<div class="box" >
+		<div class="one" style="padding-top: 15px;padding-left: 45px;">
+			<a href="kengineering.html">
+				<img src="tubiao/3-1.png"  >
+				<p class="one">工程案例</p>
+			</a>
+		
+		</div>
+		<div class="one" style="padding-top: 10px;">
+			<a href="xiugaimima.html">
+				<img src="tubiao/3-2.png">
+				<p class="one">修改密码</p>
+			</a>
+			
+		</div>
+		<div class="one" style="padding-top:8px;">
+			<a href="kuaisuzhuce.html">
+				<img src="tubiao/3-3.png" >
+				<p class="one">注册客户</p>
+			</a>
+			
+		</div>	
+	</div>
+
+
+	<nav class="mui-bar mui-bar-tab ">
+		<a class="mui-tab-item mui-active" href="index.html">
+			<div class="iconfont icon-shouye"></div>
+			<div class="mui-tab-label" style="font-size: 10px">首页</div>
+		</a>
+		<a class="mui-tab-item" href="Venture project.html">
+			<div class="iconfont icon-chaxun"></div>
+			<div class="mui-tab-label" style="font-size: 10px">创业项目</div>
+		</a>
+		<a class="mui-tab-item" href="kregistration.html">
+			<div class="iconfont icon-liuchengtu"></div>
+			<div class="mui-tab-label" style="font-size: 10px">报名流程</div>
+		</a>
+		<a class="mui-tab-item" href="Zpingtaifengcia.html">
+			<div class="iconfont icon-wendang"></div>
+			<div class="mui-tab-label" style="font-size: 10px">平台风采</div>
+		</a>
+		<a class="mui-tab-item" href="information.html">
+			<div class="iconfont icon-wode"></div>
+			<div class="mui-tab-label" style="font-size: 10px">我的滴滴</div>
+		</a>
+	</nav>
+
+	<script src="js/mui.min.js"></script>
+	<script type="text/javascript">
+		mui("body").on("tap","a",function(){
+			document.location.href = this.href;
+		})
+	</script>
+</body>
+</html>
